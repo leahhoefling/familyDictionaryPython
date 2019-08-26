@@ -28,4 +28,4 @@ my_family = {
 
 # loop of all family members
 for member, value in my_family.items():
-    print(value["name"], f"is my {member} and is", value["age"], "years old.")
+    print(f"{value['name']} is my {member} and is {value['age']} years old.")
